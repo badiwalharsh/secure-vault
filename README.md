@@ -67,3 +67,15 @@ pip install PySide6
 ## ▶️ Run
 ```bash
 python main.py
+
+## Usage (how to)
+- Short, numbered instructions.
+
+```md
+## 🖥️ Usage
+1) Enter a category (e.g., Gmail) and username.  
+2) Click **Generate Password** (or type your own).  
+3) Click **Save Password**.  
+4) Click **Show All Passwords** to view saved entries.
+
+
