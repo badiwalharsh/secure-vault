@@ -1,4 +1,4 @@
-🔐 SecureVault – Password Generator & Manager
+#🔐 SecureVault – Password Generator & Manager
 
 SecureVault is a simple yet powerful Password Generator & Password Manager combo application built with Python and PySide6 (Qt for Python).
 It allows you to generate strong passwords and store them securely by category (e.g., Social, Banking, Work).
