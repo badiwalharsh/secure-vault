@@ -42,7 +42,7 @@ secure_vault/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/secure-vault.git
+git clone https://github.com/badiwalharsh/secure-vault.git
 cd secure-vault
 ```
 
