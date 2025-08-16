@@ -7,7 +7,7 @@ It allows you to **generate strong passwords** and **store them securely** by ca
 
 ## ✨ Features
 
-- ✅ Generate strong random passwords  
+- ✅ Generate strong random passwords   
 - ✅ Save and manage passwords by category/application  
 - ✅ View saved passwords in a table view  
 - ✅ SQLite database storage (`data/passwords.db`)  
