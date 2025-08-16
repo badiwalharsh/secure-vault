@@ -1,15 +1,78 @@
 # 🔐 SecureVault – Password Generator & Manager
-A minimal desktop app in Python (PySide6) to generate strong passwords and save them by category.
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![GUI](https://img.shields.io/badge/GUI-PySide6-informational)
-![License](https://img.shields.io/badge/License-MIT-green)
+SecureVault is a simple yet powerful **Password Generator & Password Manager combo** built with **Python** and **PySide6 (Qt for Python)**.  
+It allows you to **generate strong passwords** and **store them securely** by category (e.g., Social, Banking, Work).
+
+---
 
 ## ✨ Features
-- Generate strong random passwords
-- Save passwords by category/application
-- View all saved passwords in a table
-- 100% local storage (SQLite)
+
+- ✅ Generate strong random passwords  
+- ✅ Save and manage passwords by category/application  
+- ✅ View saved passwords in a table view  
+- ✅ SQLite database storage (`data/passwords.db`)  
+- ✅ User-friendly interface built with **PySide6**  
+- ✅ 100% local (no internet dependency)  
+
+---
+
+## 📂 Project Structure
+
+```
+secure_vault/
+│
+├── main.py                   # Entry point of the app
+│
+├── core/                     # Backend logic
+│   ├── __init__.py
+│   ├── password_generator.py # Password generation logic
+│   └── password_manager.py   # Database (SQLite) functions
+│
+├── ui/                       # User Interface
+│   ├── __init__.py
+│   └── main_window.py        # Main application window
+│
+└── data/
+    └── passwords.db          # Local SQLite database
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/secure-vault.git
+cd secure-vault
+```
+
+### 2. Create a virtual environment (recommended)
+```bash
+python -m venv venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
+```
+
+### 3. Install dependencies
+```bash
+pip install PySide6
+```
+
+### 4. Run the app
+```bash
+python main.py
+```
+
+---
+
+## 🖥️ Usage
+
+1. Start the application.  
+2. Generate a new password or add your own.  
+3. Save it with an **application name** (e.g., Gmail, Facebook, Bank).  
+4. Manage and view your stored passwords in the table.  
+
+---
 
 ## 📸 Screenshots
 
@@ -17,65 +80,17 @@ A minimal desktop app in Python (PySide6) to generate strong passwords and save 
 |-------------|-------------------|-----------------|
 | ![Main](screenshots/main_window.png) | ![Generate](screenshots/generate.png) | ![Saved](screenshots/saved.png) |
 
-## 🧰 Tech Stack
-- Python 3.10+
-- PySide6 (Qt for Python)
-- SQLite (built-in)
+---
 
-## 📂 Project Structure
-secure_vault/
-├─ main.py
-├─ core/
-│  ├─ __init__.py
-│  ├─ password_generator.py
-│  └─ password_manager.py
-├─ ui/
-│  ├─ __init__.py
-│  └─ main_window.py
-└─ data/
-   └─ passwords.db  (auto-created)
+## 🚀 Future Enhancements
 
-## ✅ Prerequisites
-- Python 3.10 or newer
-- Check your version:
-```bash
-python --version.
+- Password search & filter  
+- Copy password to clipboard  
+- Master password authentication  
+- Export/Import database with encryption  
 
-## Installation
-- Use fenced code blocks so GitHub shows a **copy** button automatically.
+---
 
-```md
-## ⚙️ Installation
-```bash
-# 1) Clone
-git clone https://github.com/<your-username>/secure-vault.git
-cd secure-vault
+## 📜 License
 
-# 2) Create and activate a virtual environment
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
-
-# 3) Install dependency
-pip install PySide6
-
-## Run the app
-
-```md
-## ▶️ Run
-```bash
-python main.py
-
-## Usage (how to)
-- Short, numbered instructions.
-
-```md
-## 🖥️ Usage
-1) Enter a category (e.g., Gmail) and username.  
-2) Click **Generate Password** (or type your own).  
-3) Click **Save Password**.  
-4) Click **Show All Passwords** to view saved entries.
-
-
+This project is licensed under the **MIT License** – feel free to use and modify.  
