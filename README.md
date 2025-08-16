@@ -78,7 +78,7 @@ python main.py
 
 | Main Window | Generate Password | Saved Passwords |
 |-------------|-------------------|-----------------|
-| ![Main](screenshots/main_window.png) | ![Generate](screenshots/generate.png) | ![Saved](screenshots/saved.png) |
+| ![Main](secure_vault/screenshots/main_window.png) | ![Generate](secure_vault/screenshots/generate.png) | ![Saved](secure_vault/screenshots/saved.png) |
 
 ---
 
